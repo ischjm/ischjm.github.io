@@ -4,6 +4,9 @@
 set -e
 
 # 生成静态文件
+# 更新版本
+npm update vuepress-theme-vdoing
+
 npm run build
 
 # 进入生成的文件夹
