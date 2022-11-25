@@ -31,7 +31,7 @@ jobs: # 工作流
           SSH_PRIVATE_KEY: ${{ secrets.MY_SERVER_PRIVATE_KEY }} #后面指定为该仓库配置的私钥
           ARGS: "-rltgoDzvO"
           # 源目录，编译后生成的文件目录
-          SOURCE: '/public/'
+          SOURCE: './'
           #服务器公网地址
           REMOTE_HOST: '121.37.4.162'
           #服务器用户名-一般默认root
