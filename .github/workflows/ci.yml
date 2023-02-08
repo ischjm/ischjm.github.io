@@ -37,6 +37,6 @@ jobs: # 工作流
           #服务器用户名-一般默认root
           REMOTE_USER: ${{ secrets.SERVER_USERNAME }}
           #服务器中，代码部署的位置
-          TARGET: '/www/wiki/'
+          TARGET: '/usr/local/webserver/nginx/www/'
           #去除的文件
           EXCLUDE: "/dist/, /node_modules/" 
